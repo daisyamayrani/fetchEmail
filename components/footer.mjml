@@ -1,0 +1,76 @@
+<mj-raw>
+  <!-- Bottom Links-->
+</mj-raw>
+<mj-section>
+  <mj-column width="600px">
+    <mj-navbar ico-color="#555555">
+      <mj-navbar-link href="#" color="#444444" font-weight="bold" text-transform="capitalize">Snap Reciepts</mj-navbar-link>
+      <mj-navbar-link href="#" color="#444444" font-weight="bold" text-transform="capitalize">Discover Brands</mj-navbar-link>
+      <mj-navbar-link href="#" color="#444444" font-weight="bold" text-transform="capitalize">Special Offers</mj-navbar-link>
+      <mj-navbar-link href="#" color="#444444" font-weight="bold" text-transform="capitalize">Invite Friends</mj-navbar-link>
+    </mj-navbar>
+  </mj-column>
+</mj-section>
+
+<mj-raw>
+  <!-- Footer logo-->
+</mj-raw>
+<mj-section padding="0">
+  <mj-column>
+    <mj-image width="70px" height="70px" padding="0" src="https://i.postimg.cc/X7jKjpPH/fetch-square.png">
+  </mj-column>
+</mj-section>
+
+<mj-raw>
+  <!-- Footer Socials-->
+</mj-raw>
+
+<mj-section padding="30px 0">
+  <mj-group css-class="icons-size" width="200px">
+    <mj-column padding="0">
+      <mj-image padding="0 " href="https://facebook.com/fetch" src="https://i.postimg.cc/cCZR8HLJ/fb.png" width="27px" height="27px" alt="facebook" />
+    </mj-column>
+    <mj-column padding="0">
+      <mj-image padding="0 " href="https://twitter.com/FetchRewards" src="https://i.postimg.cc/QMT145Bt/tw.png" width="27px" height="27px" alt="twitter" />
+    </mj-column>
+    <mj-column padding="0">
+      <mj-image padding="0" href="https://www.instagram.com/fetchrewards" src="https://i.postimg.cc/PfzznmSv/in.png" width="27px" height="27px" alt="instagram" />
+    </mj-column>
+    <mj-column padding="0">
+      <mj-image padding="0" href="https://www.fetchrewards.com/" src="https://i.postimg.cc/RVg7Nv5M/link.png" width="27px" height="27px" alt="Fetch website" />
+    </mj-column>
+  </mj-group>
+</mj-section>
+
+<mj-raw>
+  <!-- Footer copyrights-->
+</mj-raw>
+<mj-section padding="0">
+  <mj-column>
+    <mj-text font-size="11px" align="center" color="#444444" font-style="italic">
+      © 2022 Fetch Rewards, Inc. All rights reserved
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-raw>
+  <!-- Footer Address-->
+</mj-raw>
+<mj-section padding="0">
+  <mj-column>
+    <mj-text font-size="11px" align="center" color="#444444">
+      1050 E. Washington Ave. 2nd Fl, Madison, WI 53703
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+<mj-raw>
+  <!-- Footer Unsubcribe-->
+</mj-raw>
+<mj-section padding="0">
+  <mj-column width="500px">
+    <mj-text font-size="11px" align="center" color="#444444">
+      You are receiving this email because you are a registered user of the Fetch Rewards mobile application. If you no longer wish to receive promotional emails, <a href="">unsubscribe.</a>
+    </mj-text>
+  </mj-column>
+</mj-section>

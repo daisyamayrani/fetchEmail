@@ -1,0 +1,118 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+
+
+
+      @media only screen and (max-width:480px) {}
+    </mj-style>
+
+    <mj-style inline="inline">
+      .header {
+        background-color: #004c3f;
+      }
+
+      .top-content-bg {
+        background-color: #ffffff;
+      }
+
+      .bottom-content-bg {
+        background-color: #F1F1F1;
+      }
+
+      .footer-links {
+        font-weight: bold;
+        color: #444444;
+      }
+
+      .footer-links:hover {}
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#e6e7e8">
+    <mj-wrapper css-class="top-content-bg" background-color="#ffffff" padding="0">
+
+      <mj-include path="./components/header.mjml" />
+
+      <mj-raw>
+        <!-- Last Day-->
+      </mj-raw>
+      <mj-section>
+        <mj-column>
+          <mj-image padding="0" src="https://i.postimg.cc/htwV1Mt6/last-day.png">
+        </mj-column>
+      </mj-section>
+
+      <mj-raw>
+        <!-- Referral-->
+      </mj-raw>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-image width="350px" padding="0" src="https://i.postimg.cc/0QGmxs01/your-ref.png">
+        </mj-column>
+      </mj-section>
+
+      <mj-raw>
+        <!-- Points Text-->
+      </mj-raw>
+      <mj-section>
+        <mj-column>
+          <mj-text css-class="points-color" align="center" color="#555555" font-size="39px" font-weight="bold">
+            R73WXQ
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-raw>
+        <!-- Big Points-->
+      </mj-raw>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-image width="350px" padding="0" src="https://i.postimg.cc/yd0hd9B5/big-points.png">
+        </mj-column>
+      </mj-section>
+
+      <mj-raw>
+        <!-- 1 2 3 -->
+      </mj-raw>
+      <mj-section>
+        <mj-column>
+          <mj-image width="580px" padding="0" src="https://i.postimg.cc/cJpM0Tqw/123.png">
+        </mj-column>
+      </mj-section>
+
+      <mj-raw>
+        <!-- Divider Line -->
+      </mj-raw>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider border-width="1px" border-style="solid" border-color="lightgrey" />
+        </mj-column>
+      </mj-section>
+
+      <mj-raw>
+        <!-- Rules-->
+      </mj-raw>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-text font-size="12px" font-style="italic" color="#555555">
+            In order for you to qualify for the increased referral bonus, your friends must enter your referral code and complete a valid receipt now through 11:59 PM CDT on 11/02/2022. After 11:59 PM CDT on 11/02/2022 the referral bonus will expire.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+    </mj-wrapper>
+
+
+
+    <mj-wrapper css-class="bottom-content-bg" padding="0 0 50px 0">
+
+      <mj-include path="./components/footer.mjml" />
+
+    </mj-wrapper>
+
+  </mj-body>
+
+</mjml>
